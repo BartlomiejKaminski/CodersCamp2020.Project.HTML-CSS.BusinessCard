@@ -2,9 +2,15 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
-p {
-   color: red; 
-   background-color: black;
+p.intro{
+   color: black; 
+   background-color: white;
+   text-align: center;
+   font-size: 25px;
+   border-bottom: 2px solid;
+   border-bottom-color: rgb(44, 165, 33);
+   border-bottom-left-radius: 2cm;
+   border-bottom-right-radius: 2cm;
 }
 
 
@@ -21,16 +27,30 @@ a#logoanchor{
 }
 
 
-@media (max-width: 825px) {
-    #zklogo {
-      width: 90%;
-    }
-  }
+div.distinction{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
+li.star{
+  margin: 0;
+	padding: 20px 0 20px 65px;
+	list-style: none;
+	background-image: url("images/star.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+  background-size: 40px;
+  width: 400px;
+}
 
+ul {
+  word-wrap: break-word;
+}
 
-
-
+.examplephoto{
+  width: 500px;
+}
 /*------------------MENU----------------------------*/
 
   
@@ -58,7 +78,7 @@ a#logoanchor{
     transition: all .5s;
   }
   nav li a:hover {
-    color: rgb(53, 51, 51);
+    color: rgb(8, 8, 8);
   }
 
   nav.menu li a,
@@ -76,8 +96,29 @@ nav.fill li a:after {
   content: '.';
   color: transparent;
   background: rgb(44, 165, 33);
-  height: 1px;
+  height: 2px;
 }
 nav.menu li a:hover:after {
   width: 100%;
+}
+
+nav.menu li a.active{
+  color: rgb(44, 165, 33);
+}
+
+@media (max-width: 825px) {
+  #zklogo {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 1040px) {
+  .examplephoto {
+    width: 90%;
+  }
+  li.star{
+    width: 80%;
+  }
+  
 }
