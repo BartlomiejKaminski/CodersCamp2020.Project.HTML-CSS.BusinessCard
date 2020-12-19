@@ -7,7 +7,7 @@ p.intro{
    background-color: white;
    text-align: center;
    font-size: 25px;
-   border-bottom: 2px solid;
+   border-bottom: 3px solid;
    border-bottom-color: rgb(44, 165, 33);
    border-bottom-left-radius: 2cm;
    border-bottom-right-radius: 2cm;
@@ -24,6 +24,9 @@ p.intro{
 a#logoanchor{
     display: flex;
     justify-content: center;
+}
+
+#zklogo{
 }
 
 
@@ -50,6 +53,31 @@ ul {
 
 .examplephoto{
   width: 500px;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+div div.top-right{
+  max-width: 50%;
+  font-weight: 550;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  background-color:rgba(255, 255, 255, 0.568);
+  box-shadow: 3px 3px 20px rgb(37, 148, 27);
+}
+
+#ledder{
+  height: 300px;
+  object-fit: cover;
+  filter: saturate(30%);
 }
 /*------------------MENU----------------------------*/
 
@@ -106,6 +134,12 @@ nav.menu li a.active{
   color: rgb(44, 165, 33);
 }
 
+
+
+
+
+/*---------------MEDIAQ------------------------*/
+
 @media (max-width: 825px) {
   #zklogo {
     width: 90%;
@@ -120,5 +154,21 @@ nav.menu li a.active{
   li.star{
     width: 80%;
   }
-  
+}
+@media (max-width: 834px) {
+   div div.top-right{
+    max-width: 60%;
+  }
+  div div.top-right{
+    top: 16px;
+    right: 16px;
+  }
+}
+@media (max-width: 600px) {
+  div div.top-right{
+    font-weight: 450;
+    font-size: 15px;
+    top: 16px;
+    right: 16px;
+  }
 }
