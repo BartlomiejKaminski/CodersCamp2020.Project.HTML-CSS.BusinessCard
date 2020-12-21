@@ -17,6 +17,19 @@ p.intro{
    border-bottom-right-radius: 2cm;
 }
 
+.tooltip {
+  width: 15%;
+  height: 10%;
+  max-width: 90px;
+  position: fixed;
+  top: 30px;
+  right: 0px;
+  background-color: rgb(228, 224, 224);
+  z-index: 1;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+ }
+
 
 #toplogo {
     display: flex;
@@ -36,6 +49,7 @@ a#logoanchor{
 
 
 div.distinction{
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -203,6 +217,22 @@ nav.menu li a.active{
 
 
 
+/*----------------------FOOTER-------------------*/
+
+.footer{
+  display: flex;
+  background-color: rgb(8, 8, 8, 0.2);
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  height: 60%;
+  border-radius: 20px;
+}
+
+
+
 
 
 /*---------------MEDIAQ------------------------*/
@@ -268,8 +298,13 @@ nav.menu li a.active{
   }
 }
 @media (max-width: 480px) {
+  div.tooltip{
+    width: 10%;
+    height: 8%;
+  }
   a.cool-btn {
     width: 70%;
   }
 
 }
+
