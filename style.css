@@ -30,6 +30,12 @@ p.intro{
   border-bottom-left-radius: 16px;
  }
 
+ div.tooltip a img{
+  height: 80%;
+  padding-top: 8%;
+  padding-left: 8%;
+ }
+
 
 #toplogo {
     display: flex;
@@ -301,6 +307,9 @@ footer img{
   div.tooltip{
     width: 10%;
     height: 8%;
+  }
+  div.tooltip a img{
+    padding-top: 14%;
   }
   a.cool-btn {
     width: 70%;
