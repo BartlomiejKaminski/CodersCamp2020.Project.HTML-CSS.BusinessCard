@@ -7,6 +7,7 @@ p{
 }
 
 p.intro{
+  padding-bottom: 12px;
    color: black; 
    background-color: white;
    text-align: center;
@@ -132,7 +133,7 @@ ul {
 
 div div.top-right{
   max-width: 50%;
-  font-weight: 550;
+  font-weight: 590;
   position: absolute;
   top: 30px;
   right: 60px;
@@ -325,7 +326,7 @@ footer img{
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 5px ;
   }
 }
 
