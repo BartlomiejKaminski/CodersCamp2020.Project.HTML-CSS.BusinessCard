@@ -6,6 +6,13 @@ p{
   text-align: center;
 }
 
+p.contact{
+  text-align: start;
+  display: block;
+  width: 100%;
+  padding-left: 40%;
+}
+
 p.intro{
   padding-bottom: 12px;
    color: black; 
@@ -35,6 +42,12 @@ p.intro{
   height: 80%;
   padding-top: 8%;
   padding-left: 8%;
+  transition: all 0.6s;
+ }
+
+ div.tooltip a img:hover{
+   border-radius: 40px;
+   transition: all 0.5s;
  }
 
 
@@ -328,5 +341,16 @@ footer img{
     margin-left: 5px;
     margin-right: 5px ;
   }
+}
+@media (max-width: 770px) {
+  p.contact {
+    padding-left: 20%;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  p.contact img{
+    width: 30px;
+  }
+
 }
 
