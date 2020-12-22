@@ -251,10 +251,14 @@ form.mail-us input:hover{
 
 div.container-gallery img{
   margin: 30px auto;
-  border-radius: 20px;
+  margin-bottom: 0px;
+  border-radius: 8px;
   height: auto;
   width: 90%;
   object-fit: cover;
+}
+.container-gallery ul{
+  width: 80%;
 }
 
 .container-gallery li{
@@ -264,7 +268,7 @@ div.container-gallery img{
 	background-repeat: no-repeat;
 	background-position: left center;
   background-size: 20px;
-  width: 400px;
+  width: 80%;
 }
 
 
@@ -335,7 +339,7 @@ nav.menu li a.active{
 /*----------------------FOOTER-------------------*/
 
 .footer{
-  border-top: 3px solid rgb(8, 8, 8);
+  border-top: 3px solid rgba(8, 8, 8, 0.384);
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(255, 255, 255, 0.2);
@@ -440,11 +444,11 @@ footer div{
 
 @media (max-width: 480px) {
   div.tooltip{
-    width: 10%;
+    width: 16%;
     height: 8%;
   }
   div.tooltip a img{
-    padding-top: 14%;
+    padding-top: 9%;
   }
   a.cool-btn {
     width: 70%;
