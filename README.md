@@ -109,3 +109,13 @@ Pamiętaj tylko, że Ty korzystasz tutaj jedynie z HTML i CSS.
 Przygotowane projekty interfejsu użytkownika są tutaj po to, żebyś bez problemów postawił swoje pierwsze kroki w praktycznym wykorzystaniu HTML i CSS.
 Jednakże zachęcamy do wykonania czegoś, co ukaże Twoje wnętrze :) 
 Dobrej zabawy!
+
+
+
+
+Opis projektu: 
+Jest to strona informacyjna polsko-niemieckiej firmy ZK|Bau-Bud. Jest to wersja polsko języczna bez podpiętych plików z przetłumaczonymi stronami. (Stad tez 2 języki np na grafikach). Nie podpinałem stron z tłumaczeniem ponieważ niczym specjalnym się one nie różnią poza innymi podpięciami linków a nie chciałem robić zamieszania w strukturze plików.
+
+Zamiast orginalnych opisów skorzystałem z generatora Lorem ipsum lub innych wymyslonych na szybko "dummy textów" mam nadzieje że nie przekreśli to odbioru witryny :)
+
+
