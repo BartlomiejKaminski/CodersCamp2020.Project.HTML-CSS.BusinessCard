@@ -228,6 +228,46 @@ form.mail-us input:hover{
   transition: all 0.4s;
 }
 
+/*--------------------GALLERY----------------------*/
+
+.head-container{
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-gallery{
+  background-color: rgba(8, 8, 8, 0.089);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 90%;
+  border-radius: 20px;
+
+}
+
+div.container-gallery img{
+  margin: 30px auto;
+  border-radius: 20px;
+  height: auto;
+  width: 90%;
+  object-fit: cover;
+}
+
+.container-gallery li{
+	padding: 20px 0 20px 40px;
+	list-style: none;
+	background-image: url("images/star.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+  background-size: 20px;
+  width: 400px;
+}
+
+
 
 
 
@@ -392,12 +432,12 @@ footer div{
   div div.top-right{
     top: 0px;
     right: 10px;
-
   }
   .bottom-right{
     right: 30px;
   }
 }
+
 @media (max-width: 480px) {
   div.tooltip{
     width: 10%;
@@ -409,16 +449,26 @@ footer div{
   a.cool-btn {
     width: 70%;
   }
+}
+
+@media (max-width: 502px){
   nav.menu li a {
     padding-left: 5px;
     padding-right: 5px;
   }
-
 }
+
 @media (max-width: 380px) {
   footer{
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 422px){
+  nav.menu li a {
+    padding-left: 5px;
+    padding-right: 5px;
   }
   nav.menu li a {
     padding-left: 0px;
@@ -427,6 +477,9 @@ footer div{
     margin-right: 5px ;
   }
 }
+
+
+
 @media (max-width: 770px) {
   p.contact {
     padding-left: 20%;
