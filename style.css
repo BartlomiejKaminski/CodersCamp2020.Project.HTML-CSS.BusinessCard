@@ -213,6 +213,7 @@ form.mail-us textarea{
 }
 
 form.mail-us p{
+  padding-top: 20px;
   text-align: start;
   margin-left: 10%;
   font-size: 2rem;
@@ -499,12 +500,14 @@ footer div{
   p.contact img{
     width: 30px;
   }
+  
   form.mail-us textarea{
     margin-left: 6%;
   }
   form.mail-us p{
+    padding-top: 20px;
     margin-left: 6%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
   form.mail-us input{
