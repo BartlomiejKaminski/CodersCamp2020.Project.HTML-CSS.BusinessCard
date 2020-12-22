@@ -10,7 +10,7 @@ p.contact{
   text-align: start;
   display: block;
   width: 100%;
-  padding-left: 40%;
+  padding-left: 25%;
 }
 
 p.intro{
@@ -202,9 +202,10 @@ form.mail-us{
 
 form.mail-us textarea{
   display: block;
-  width: 80%;
+  width: 60%;
   margin-left: 10%;
 }
+
 form.mail-us p{
   text-align: start;
   margin-left: 10%;
@@ -215,7 +216,7 @@ form.mail-us input{
   border-radius: 6px;
   display: block;
   margin-left: 10%;
-  font-size: 2rem;
+  font-size: 1.2rem;
   transition: all 0.5s;
 }
 form.mail-us input:hover{
