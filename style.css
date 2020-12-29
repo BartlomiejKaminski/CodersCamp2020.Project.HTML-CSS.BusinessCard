@@ -117,17 +117,26 @@ ul {
   background-color: rgb(226, 223, 223);
   width: 100%;
   margin: 0 auto;
-  height: 450px;
+  height: 400px;
 }
 
 .container-single{
+  display: flex;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.container-single-map{
   display: flex;
   flex-wrap: wrap;
   position: relative;
   background-color: rgb(255, 255, 255);
   width: 100%;
   margin: 0 auto;
-  height: 450px;
+  height: 400px;
 }
 
 .type{
@@ -217,21 +226,34 @@ form.mail-us p{
   text-align: start;
   margin-left: 10%;
   font-size: 2rem;
+  font-weight: 700;
 }
-
-form.mail-us input{
-  border-radius: 6px;
+form.mail-us .text-areas{
+  border-radius: 4px;
   display: block;
   margin-left: 10%;
   font-size: 1.2rem;
   transition: all 0.5s;
 }
-form.mail-us input:hover{
+.comment{
+  width: 70%;
+}
+
+form.mail-us input.text-areas:hover{
+
+  background-color: rgb(233, 255, 226);
+  color: rgb(3, 3, 3);
+  border-color: rgb(255, 255, 255);
+  transition: all 0.4s;
+}
+form .form-btn{
+  border-radius: 4px;
+  margin-left: 10%;
+  transition: all 0.5s;
+}
+
+form .form-btn:hover{
   transform: scale(1.1);
-  background-color: rgb(85, 156, 64);
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  border-color: rgb(44, 165, 33);
   transition: all 0.4s;
 }
 
@@ -511,7 +533,6 @@ footer div{
     font-weight: 600;
   }
   form.mail-us input{
-    margin-left: 6%;
     font-size: 1rem;
   }
 
