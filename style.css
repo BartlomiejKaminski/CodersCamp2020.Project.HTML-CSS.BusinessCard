@@ -447,11 +447,17 @@ footer div{
 
 /*---------------MEDIAQ------------------------*/
 
-@media (max-width: 825px) {
+@media (max-width: 830px) {
   #zklogo {
-    width: 70%;
+    width: 65%;
   }
 }
+@media screen and (min-height: 1791px) and (max-height:1793px){
+  #zklogo {
+    max-height: 160px;
+  }
+}
+
 
 @media (max-width: 1040px) {
   .container-even{
