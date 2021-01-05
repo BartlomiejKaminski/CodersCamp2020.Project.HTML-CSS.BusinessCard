@@ -58,19 +58,19 @@ p.intro{
  }
 
 
-#toplogo {
+.toplogo {
     display: flex;
     padding-top: 5px;
     padding-bottom: 40px;
     align-items: center;
     justify-content: center;
 }
-a#logoanchor{
+a.logoanchor{
     display: flex;
     justify-content: center;
 }
 
-#zklogo{
+.zklogo{
   width: 60%;
 }
 
