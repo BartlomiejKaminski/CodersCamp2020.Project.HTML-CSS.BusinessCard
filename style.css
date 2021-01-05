@@ -62,7 +62,7 @@ p.intro{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    display: flex;
+    display: -webkit-flex;
     padding-top: 5px;
     padding-bottom: 40px;
     align-items: center;
@@ -72,7 +72,7 @@ a#logoanchor{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    display: flex;
+    display: -webkit-flex;
     justify-content: center;
 }
 
@@ -488,6 +488,9 @@ footer div{
   form.mail-us textarea{
     display: block;
     width: 80%;
+  }
+  #zklogo{
+    max-height: 160px;
   }
 }
 @media (max-width: 655px) {
