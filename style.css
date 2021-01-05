@@ -498,6 +498,9 @@ footer div{
     font-size: 0.8rem;
     padding: 0.4rem 0.9rem;
   }
+  #zklogo{
+    max-height: 135px;
+  }
 }
 
 
@@ -513,6 +516,9 @@ footer div{
 @media (max-width: 520px) {
   .container{
     width: 100%;
+  }
+  #zklogo{
+    max-height: 110px;
   }
 }
 
@@ -550,6 +556,9 @@ footer div{
   footer{
     display: flex;
     flex-direction: column;
+  }
+  #zklogo{
+    max-height: 80px;
   }
 }
 
