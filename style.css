@@ -184,11 +184,18 @@ div.type p img{
 }
 
 div div.top-right{
-  max-width: 50%;
+  max-width: 70%;
   font-weight: 590;
   position: absolute;
   top: 30px;
   right: 60px;
+}
+div div.top-right-DE{
+  max-width: 100%;
+  font-weight: 590;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 #ledder{
@@ -517,11 +524,13 @@ footer div{
 }
 
 @media (max-width: 520px) {
-  .container{
-    width: 100%;
-  }
   #zklogo{
     max-height: 110px;
+  }
+}
+@media(max-width: 540px){
+  .container{
+    width: 100%;
   }
 }
 
@@ -576,6 +585,9 @@ footer div{
     margin-left: 5px;
     margin-right: 5px ;
   }
+  div div.top-right-DE{
+    font-size: 14px;
+  }
 }
 
 
@@ -617,6 +629,13 @@ footer div{
   }
 }
 
+@media (max-width: 460px){
+  div div.top-right{
+    max-width: 100%;
+    left: 5px;
+    top: 5px;
+  }
+}
 
 /*-----------ANIMATIONS-----------------*/
 
