@@ -70,7 +70,7 @@ a#logoanchor{
     justify-content: center;
 }
 
-#zklogo{
+div#toplogo a#logoanchor #zklogo{
   width: 60%;
 }
 
