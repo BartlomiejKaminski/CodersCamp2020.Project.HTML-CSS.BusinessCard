@@ -59,7 +59,9 @@ p.intro{
 
 
 #toplogo {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     padding-top: 5px;
     padding-bottom: 40px;
@@ -67,7 +69,9 @@ p.intro{
     justify-content: center;
 }
 a#logoanchor{
-  -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     justify-content: center;
 }
@@ -75,6 +79,8 @@ a#logoanchor{
 div#toplogo a#logoanchor #zklogo{
   width: 60%;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
