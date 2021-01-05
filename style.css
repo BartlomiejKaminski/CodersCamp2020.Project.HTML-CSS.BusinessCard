@@ -448,13 +448,8 @@ footer div{
 /*---------------MEDIAQ------------------------*/
 
 @media (max-width: 830px) {
-  #zklogo {
+  .zklogo {
     width: 65%;
-  }
-}
-@media screen and (min-height: 1791px) and (max-height:1793px){
-  #zklogo {
-    max-height: 160px;
   }
 }
 
@@ -597,6 +592,25 @@ footer div{
     height: 240px;
   }
 }
+
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+  .toplogo {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+a.logoanchor{
+    display: flex;
+    justify-content: center;
+}
+.zklogo{
+  width: 60%;
+} 
+}}
 
 /*-----------ANIMATIONS-----------------*/
 
