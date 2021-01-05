@@ -10,7 +10,7 @@ p.contact{
   text-align: start;
   display: block;
   width: 100%;
-  padding-left: 25%;
+  padding-left: 21%;
 }
 
 p.intro{
@@ -209,6 +209,46 @@ a.cool-btn {
   transform: scale(0.9);
   transition: all 550ms;
 }
+/*---------------------LANGAGES-----------------*/
+#langdiv{
+  position: absolute;
+  width: 10%;
+  height: 70px;
+  top: 20px;
+  left: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#langdiv a img {
+  filter: saturate(0.4);
+  margin-left: auto 0;
+}
+#langdiv a{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#langdiv a img.active{
+  filter: saturate(1.2);
+  transform: scale(1.3);
+  border-bottom: 2px solid rgb(56, 126, 16);
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------FORM----------------------------*/
 form.mail-us{
   background-color: rgb(241, 241, 241);
@@ -411,7 +451,6 @@ footer div{
   #zklogo {
     width: 70%;
   }
-
 }
 
 @media (max-width: 1040px) {
@@ -487,7 +526,7 @@ footer div{
   }
 }
 
-@media (max-width: 502px){
+@media (max-width: 510px){
   nav.menu li a {
     padding-left: 5px;
     padding-right: 5px;
@@ -501,7 +540,7 @@ footer div{
   }
 }
 
-@media (max-width: 422px){
+@media (max-width: 430px){
   nav.menu li a {
     padding-left: 5px;
     padding-right: 5px;
