@@ -640,13 +640,16 @@ footer div{
   div div.top-right-DE{
     font-size: 12px;
   }
-}
-@media(max-width: 350px){
   div div.top-right{
     font-size: 12px;
   }
 }
 
+@media(max-width: 318px){
+  div.bottom-right a.cool-btn{
+    display: none;
+  }
+}
 /*-----------ANIMATIONS-----------------*/
 
 @keyframes mymove {
